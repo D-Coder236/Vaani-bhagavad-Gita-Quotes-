@@ -1,0 +1,304 @@
+/*
+body{
+    text-align: center;
+    background-image: url("SS1(2).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#header{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+}
+#intro{
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 25px;
+}
+#intro2{
+    border:none;
+    border-radius: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    background: none;
+}
+.btn1:hover{
+    background: #F4A261;
+    transition-duration: 0.3s;
+    color: white;
+    cursor: pointer;
+}*/
+#full{
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    border-width: 5px;
+    margin: 10px;
+}
+#option{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 10px; /* Reduce the column gap */ 
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 30px;
+}
+#begin{
+    background: black;
+    font-size: 45px;
+    font-family:'Garet';
+    margin: 30px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.btn{
+    width: 400px;
+    height:400px;
+    border-radius: 40px;
+    font-size: 40px;
+    font-family: 'Garet';
+    background: none;
+    color: white;
+}
+.btn:hover{
+    background: #e5e5e5;
+    transition-duration: 0.3s;
+    color: black;
+    cursor: pointer;
+}
+@font-face {
+    font-family: 'Samarkan'; /* Choose a name for your font */
+    src: url('samarkan/SAMAN___.TTF') format('truetype'); /* Adjust the path and format if needed */
+    /* Add additional src entries for different font formats (e.g., woff, woff2) for better browser support */
+}
+@font-face {
+    font-family: 'Chentalle'; /* Choose a name for your font */
+    src: url('samarkan/chentalle.otf') format('truetype'); /* Adjust the path and format if needed */
+    /* Add additional src entries for different font formats (e.g., woff, woff2) for better browser support */
+}
+@font-face {
+    font-family: 'Garet'; /* Choose a name for your font */
+    src: url('samarkan/Garet-Book.ttf') format('truetype'); /* Adjust the path and format if needed */
+    /* Add additional src entries for different font formats (e.g., woff, woff2) for better browser support */
+}
+
+body{
+    text-align: center;
+}
+#header{
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Samarkan';
+    font-size: 70px;
+    height: 500px;
+    border-radius: 30px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    margin: 30px;
+    /*flex-direction: column; /* Align items vertically */
+    /*overflow-wrap: break-word;
+    margin-bottom: 10px;*/
+}
+#intro{
+    background: #000000;
+    color: #ffffff;
+    font-family:'Garet';
+    font-size: 45px;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-top: 30px;
+    padding: 25px;
+}
+#img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mg{
+    width: 600px;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mg2{
+    height: 500px;
+}
+#divider1{
+    background: #000000;
+    color: #ffffff;
+    font-family:'Garet';
+    font-size: 45px;
+    height: 900px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-top: 30px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#btn1{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    border-color: white;
+    background: black;
+}
+#btn1:hover{
+    background-image:url("mahabharat1.jpg");
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;;
+    cursor: pointer;
+}
+#btn2{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    border-color: white;
+    background: black;
+}
+#btn2:hover{
+    background-image:url("mahabharat2.jpg");
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#btn3{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    background: black;
+    border-color: white;
+}
+#btn3:hover{
+    background-image:url("mahabharat3.jpg");
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#btn4{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    border-color: white;
+    background: black;
+}
+#btn4:hover{
+    background-image:url("mahabharat4.jpg");
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#btn5{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    border-color: white;
+    background: none;
+}
+#btn5:hover{
+    background-image:url("mahabharat5.jpg");
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#divider2{
+    background: #000000;
+    color: #ffffff;
+    font-family:'Garet';
+    font-size: 45px;
+    height: 900px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-top: 30px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#divider3{
+    background: #000000;
+    color: #ffffff;
+    font-family:'Garet';
+    font-size: 45px;
+    height: 900px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-top: 30px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#divider4{
+    background: #000000;
+    color: #ffffff;
+    font-family:'Garet';
+    font-size: 45px;
+    height: 900px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-top: 30px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#divider5{
+    background: #000000;
+    color: #ffffff;
+    font-family:'Garet';
+    font-size: 45px;
+    height: 900px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
